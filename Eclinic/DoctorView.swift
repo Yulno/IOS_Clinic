@@ -42,7 +42,9 @@ struct DoctorView: View {
         .frame(width: 327, height: 138, alignment: .center)
         .background(Color("blue"))
         .cornerRadius(12)
+        .padding(.top, 16)
         .padding(.horizontal, 24)
+        
     }
         
 }

@@ -14,9 +14,10 @@ struct SearchView: View{
             .cornerRadius(12)
         
     }
-        .padding(.horizontal, 24)
         .padding(.top, 20)
         .padding(.bottom, 24)
+        .padding(.horizontal, 24)
+        
     }
 }
 

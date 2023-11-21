@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552D74642B0D026D00D74660 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D74632B0D026D00D74660 /* MainView.swift */; };
+		552D746A2B0D1BBE00D74660 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D74692B0D1BBE00D74660 /* CalendarView.swift */; };
+		552D746C2B0D1BD100D74660 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D746B2B0D1BD100D74660 /* MessageView.swift */; };
+		552D746E2B0D1BE400D74660 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D746D2B0D1BE400D74660 /* ProfileView.swift */; };
+		552D74722B0D26EB00D74660 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D74712B0D26EB00D74660 /* ButtonView.swift */; };
 		552DCCE52B0A6C3500138CE2 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 552DCCE12B0A6C3500138CE2 /* Poppins-Regular.ttf */; };
 		552DCCE62B0A6C3500138CE2 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 552DCCE22B0A6C3500138CE2 /* Poppins-SemiBold.ttf */; };
 		552DCCE72B0A6C3500138CE2 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 552DCCE32B0A6C3500138CE2 /* Poppins-Bold.ttf */; };
@@ -24,6 +29,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		552D74632B0D026D00D74660 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		552D74692B0D1BBE00D74660 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		552D746B2B0D1BD100D74660 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		552D746D2B0D1BE400D74660 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		552D74712B0D26EB00D74660 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		552DCCE02B0A670800138CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		552DCCE12B0A6C3500138CE2 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		552DCCE22B0A6C3500138CE2 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -80,6 +90,11 @@
 				55D79F162B09DBA500A7AD48 /* SearchView.swift */,
 				55D79F142B09DB8A00A7AD48 /* NearView.swift */,
 				55D79F182B09DBC200A7AD48 /* MenuView.swift */,
+				552D74712B0D26EB00D74660 /* ButtonView.swift */,
+				552D74632B0D026D00D74660 /* MainView.swift */,
+				552D74692B0D1BBE00D74660 /* CalendarView.swift */,
+				552D746B2B0D1BD100D74660 /* MessageView.swift */,
+				552D746D2B0D1BE400D74660 /* ProfileView.swift */,
 				55D79F0E2B09D8B800A7AD48 /* AppTheme.swift */,
 				557F19452B04E3EA00ABA813 /* Assets.xcassets */,
 				552DCCE32B0A6C3500138CE2 /* Poppins-Bold.ttf */,
@@ -173,14 +188,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552D746C2B0D1BD100D74660 /* MessageView.swift in Sources */,
+				552D746E2B0D1BE400D74660 /* ProfileView.swift in Sources */,
 				55D79F0F2B09D8B800A7AD48 /* AppTheme.swift in Sources */,
 				55D79F192B09DBC200A7AD48 /* MenuView.swift in Sources */,
 				55D79F112B09DB5D00A7AD48 /* HelloView.swift in Sources */,
 				55D79F152B09DB8A00A7AD48 /* NearView.swift in Sources */,
 				55D79F172B09DBA500A7AD48 /* SearchView.swift in Sources */,
+				552D746A2B0D1BBE00D74660 /* CalendarView.swift in Sources */,
 				55D79F132B09DB6E00A7AD48 /* DoctorView.swift in Sources */,
+				552D74722B0D26EB00D74660 /* ButtonView.swift in Sources */,
 				557F19442B04E3E500ABA813 /* ContentView.swift in Sources */,
 				557F19422B04E3E500ABA813 /* EclinicApp.swift in Sources */,
+				552D74642B0D026D00D74660 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

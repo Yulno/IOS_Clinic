@@ -46,8 +46,9 @@ struct NearView: View {
             .frame(width: 327, height: 138, alignment: .center)
             .background(Color("whitegray"))
             .cornerRadius(12)
+            .padding(.bottom, 12)
             .padding(.horizontal, 24)
-            .padding(.bottom, 12)        
+        
     }
 }
 

@@ -13,8 +13,9 @@ struct HelloView: View {
                 //.cornerRadius(28)
             }
         .padding(.top, 20)
+        .padding(.bottom, 16)
         .padding(.horizontal, 24)
-        .padding(.bottom, 32)
+        
     }
 }
 
