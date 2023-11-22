@@ -6,16 +6,16 @@ struct MainView: View {
         TabView {
             ContentView()
                 .tabItem {
-                    Image("home-button")}
+                    Image(systemName: "house.fill")}
             CalendarView()
                 .tabItem {
-                    Image("calendar-button")}
+                    Image(systemName: "calendar")}
             MessageView()
                 .tabItem {
-                    Image("message-button")}
+                    Image(systemName: "ellipsis.bubble")}
             ProfileView()
                 .tabItem {
-                    Image("profile-button")
+                    Image(systemName: "person")
                     
                 }
         }
