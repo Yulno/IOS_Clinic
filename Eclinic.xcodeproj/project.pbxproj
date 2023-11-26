@@ -82,25 +82,12 @@
 		557F19402B04E3E500ABA813 /* Eclinic */ = {
 			isa = PBXGroup;
 			children = (
+				55A9A1A02B13389E004E08E5 /* Theme */,
+				55A9A19F2B133872004E08E5 /* Screens */,
+				55A9A19E2B133841004E08E5 /* Views */,
+				55A9A19D2B133818004E08E5 /* Components */,
+				55A9A1A12B133954004E08E5 /* Fonts */,
 				552DCCE02B0A670800138CE2 /* Info.plist */,
-				557F19412B04E3E500ABA813 /* EclinicApp.swift */,
-				557F19432B04E3E500ABA813 /* ContentView.swift */,
-				55D79F102B09DB5D00A7AD48 /* HelloView.swift */,
-				55D79F122B09DB6E00A7AD48 /* DoctorView.swift */,
-				55D79F162B09DBA500A7AD48 /* SearchView.swift */,
-				55D79F142B09DB8A00A7AD48 /* NearView.swift */,
-				55D79F182B09DBC200A7AD48 /* MenuView.swift */,
-				552D74712B0D26EB00D74660 /* ButtonView.swift */,
-				552D74632B0D026D00D74660 /* MainView.swift */,
-				552D74692B0D1BBE00D74660 /* CalendarView.swift */,
-				552D746B2B0D1BD100D74660 /* MessageView.swift */,
-				552D746D2B0D1BE400D74660 /* ProfileView.swift */,
-				55D79F0E2B09D8B800A7AD48 /* AppTheme.swift */,
-				557F19452B04E3EA00ABA813 /* Assets.xcassets */,
-				552DCCE32B0A6C3500138CE2 /* Poppins-Bold.ttf */,
-				552DCCE42B0A6C3500138CE2 /* Poppins-Medium.ttf */,
-				552DCCE12B0A6C3500138CE2 /* Poppins-Regular.ttf */,
-				552DCCE22B0A6C3500138CE2 /* Poppins-SemiBold.ttf */,
 				557F19472B04E3EA00ABA813 /* Preview Content */,
 			);
 			path = Eclinic;
@@ -112,6 +99,59 @@
 				557F19482B04E3EA00ABA813 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55A9A19D2B133818004E08E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				557F19452B04E3EA00ABA813 /* Assets.xcassets */,
+				557F19412B04E3E500ABA813 /* EclinicApp.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		55A9A19E2B133841004E08E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				552D74712B0D26EB00D74660 /* ButtonView.swift */,
+				55D79F182B09DBC200A7AD48 /* MenuView.swift */,
+				55D79F162B09DBA500A7AD48 /* SearchView.swift */,
+				55D79F142B09DB8A00A7AD48 /* NearView.swift */,
+				55D79F122B09DB6E00A7AD48 /* DoctorView.swift */,
+				55D79F102B09DB5D00A7AD48 /* HelloView.swift */,
+				557F19432B04E3E500ABA813 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55A9A19F2B133872004E08E5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				552D746D2B0D1BE400D74660 /* ProfileView.swift */,
+				552D746B2B0D1BD100D74660 /* MessageView.swift */,
+				552D74692B0D1BBE00D74660 /* CalendarView.swift */,
+				552D74632B0D026D00D74660 /* MainView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		55A9A1A02B13389E004E08E5 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				55D79F0E2B09D8B800A7AD48 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		55A9A1A12B133954004E08E5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				552DCCE22B0A6C3500138CE2 /* Poppins-SemiBold.ttf */,
+				552DCCE12B0A6C3500138CE2 /* Poppins-Regular.ttf */,
+				552DCCE42B0A6C3500138CE2 /* Poppins-Medium.ttf */,
+				552DCCE32B0A6C3500138CE2 /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
